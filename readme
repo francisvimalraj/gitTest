@@ -1,0 +1,32 @@
+First we need to create the token using this Url
+https://github.com/settings/personal-access-tokens
+
+After generating the token we need to create the orgin link
+git remote set-url origin https://francisvimalraj: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@github.com/francisvimalraj/gitTest.git
+git remote set-url origin https://userName:githubToken@github.com/userName/reponame.git
+
+git clone https://francisvimalraj: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@github.com/francisvimalraj/gitTest.git
+
+git checkout -b new_test branch
+will create the new branch
+
+git checkout origin <branch_name>
+
+Addd the new files the use this command to push the file on the remote
+
+git add .
+git commit -m "comment line for the commit"
+git push <branch_name>
+
+after fitst time push to the branch
+use the command like this 
+
+git add .
+git commit -m "comment line for the commit"
+git push
+
+https://github.com/
+
+
+
+https://github.com/
