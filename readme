@@ -7,10 +7,13 @@ git remote set-url origin https://userName:githubToken@github.com/userName/repon
 
 git clone https://francisvimalraj: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@github.com/francisvimalraj/gitTest.git
 
+git clone https://cfmitrah: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@github.com/nsr3000/nsr.git
+
+
 git checkout -b new_test branch
 will create the new branch
 
-git checkout origin <branch_name>
+git checkout -b  <branch_name>
 
 Addd the new files the use this command to push the file on the remote
 
