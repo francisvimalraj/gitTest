@@ -26,10 +26,14 @@ use the command like this
 
 git add .
 git commit -m "comment line for the commit"
-git push
+git push origin <branch_name>
 
-https://github.com/
+! [rejected]        new_test_branch -> new_test_branch (non-fast-forward)
+error: failed to push some refs to 'https://github.com/francisvimalraj/gitTest.git'
 
+if we got these kind of errors while commit the changes to the branch means we need to rebase the current bracnh changes to the local
+git pull origin new_test_branch --rebase
 
+After rebase also we get an same error means we need to push the changes forcefully to the github.
 
-https://github.com/
+ git push --force origin new_test_branch
